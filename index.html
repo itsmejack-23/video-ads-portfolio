@@ -1,10 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Jack Video Ads</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Esmail | Video Ads Creator</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, Website is Working!</h1>
-  <p>My GitHub website setup is successful.</p>
+
+<!-- HERO SECTION -->
+<header class="hero">
+  <div class="hero-content">
+    <h1>Hi, My Name Is <span>Esmail</span></h1>
+    <h2>I am a Professional Video Ads Creator</h2>
+    <p class="subheading">I am expert in creating different types of ads like: Social Media Ads, YouTube Ads, Facebook Ads, Instagram Story Ads, TikTok Ads, Carousel Ads, Sponsored Content, Product Launch Videos, Explainer Ads, Testimonial Ads, Brand Awareness Videos, Animated Ads, Short Form Ads, Promo Videos, Live Action Ads, Influencer Ads.</p>
+  </div>
+</header>
+
+<!-- PROJECT SHOWCASE -->
+<section class="projects">
+  <h2>My Projects</h2>
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slide active">
+        <video src="assets/project1.mp4" controls></video>
+        <div class="details">
+          <h3>Brand Awareness Campaign</h3>
+          <p>Date: Jan 2026</p>
+          <p>Client: XYZ Corp</p>
+          <p>Short Description: Created a high-converting ad for social media engagement.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <video src="assets/project2.mp4" controls></video>
+        <div class="details">
+          <h3>Product Launch Promo</h3>
+          <p>Date: Feb 2026</p>
+          <p>Client: ABC Ltd</p>
+          <p>Short Description: Launched new product video with animated graphics & CTA.</p>
+        </div>
+      </div>
+      <!-- More slides can be added similarly -->
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+</section>
+
+<!-- FAQ + CONTACT -->
+<section class="faq-contact">
+  <div class="faq">
+    <h2>FAQs</h2>
+    <div class="faq-item">
+      <h3>What is your delivery time?</h3>
+      <p>Typically 5-7 days for a standard 30-second video.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Do you offer revisions?</h3>
+      <p>Yes, up to 2 revisions included in every package.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What formats do you provide?</h3>
+      <p>MP4, MOV, optimized for web & social media platforms.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can you create animations?</h3>
+      <p>Yes, fully animated videos are part of the services.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Do you handle scripts?</h3>
+      <p>Yes, we provide creative copywriting & storyboard if required.</p>
+    </div>
+  </div>
+  
+  <div class="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Project Details / Inquiry"></textarea>
+      <p>Starting Price: $100 for 30 seconds of best-quality video</p>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- THANK YOU SECTION -->
+<footer class="thankyou">
+  <p>Thank You For Visiting My Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
